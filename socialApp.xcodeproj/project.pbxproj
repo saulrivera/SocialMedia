@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B26403D21F380CD100F5AC0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26403D11F380CD100F5AC0C /* AppDelegate.swift */; };
-		B26403D41F380CD100F5AC0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26403D31F380CD100F5AC0C /* ViewController.swift */; };
+		B26403D41F380CD100F5AC0C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26403D31F380CD100F5AC0C /* SignInVC.swift */; };
 		B26403D71F380CD100F5AC0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26403D51F380CD100F5AC0C /* Main.storyboard */; };
 		B26403D91F380CD100F5AC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26403D81F380CD100F5AC0C /* Assets.xcassets */; };
 		B26403DC1F380CD100F5AC0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26403DA1F380CD100F5AC0C /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		9B93370FFCC374C45C03D4FF /* Pods-socialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socialApp/Pods-socialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B26403CE1F380CD100F5AC0C /* socialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26403D11F380CD100F5AC0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B26403D31F380CD100F5AC0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26403D31F380CD100F5AC0C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		B26403D61F380CD100F5AC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B26403D81F380CD100F5AC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26403DB1F380CD100F5AC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,8 +80,10 @@
 		B26403D01F380CD100F5AC0C /* socialApp */ = {
 			isa = PBXGroup;
 			children = (
+				B26403E51F380F9B00F5AC0C /* Model */,
+				B26403E61F380FAD00F5AC0C /* View */,
+				B26403E71F380FB700F5AC0C /* Controller */,
 				B26403D11F380CD100F5AC0C /* AppDelegate.swift */,
-				B26403D31F380CD100F5AC0C /* ViewController.swift */,
 				B26403D51F380CD100F5AC0C /* Main.storyboard */,
 				B26403D81F380CD100F5AC0C /* Assets.xcassets */,
 				B26403DA1F380CD100F5AC0C /* LaunchScreen.storyboard */,
@@ -89,6 +91,28 @@
 				B26403E31F380D8A00F5AC0C /* GoogleService-Info.plist */,
 			);
 			path = socialApp;
+			sourceTree = "<group>";
+		};
+		B26403E51F380F9B00F5AC0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B26403E61F380FAD00F5AC0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B26403E71F380FB700F5AC0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26403D31F380CD100F5AC0C /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26403D41F380CD100F5AC0C /* ViewController.swift in Sources */,
+				B26403D41F380CD100F5AC0C /* SignInVC.swift in Sources */,
 				B26403D21F380CD100F5AC0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +404,7 @@
 				B26403E21F380CD100F5AC0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
