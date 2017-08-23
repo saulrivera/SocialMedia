@@ -13,6 +13,7 @@
 		B22D267E1F49122300794BC3 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D267D1F49122300794BC3 /* FancyField.swift */; };
 		B22D26801F492FAB00794BC3 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D267F1F492FAB00794BC3 /* FancyButton.swift */; };
 		B22D26831F496FA200794BC3 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D26821F496FA200794BC3 /* FeedVC.swift */; };
+		B22D26851F4D25AE00794BC3 /* FancyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D26841F4D25AE00794BC3 /* FancyTextView.swift */; };
 		B26403D21F380CD100F5AC0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26403D11F380CD100F5AC0C /* AppDelegate.swift */; };
 		B26403D41F380CD100F5AC0C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26403D31F380CD100F5AC0C /* SignInVC.swift */; };
 		B26403D71F380CD100F5AC0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26403D51F380CD100F5AC0C /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		B22D267F1F492FAB00794BC3 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		B22D26811F49630400794BC3 /* socialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = socialApp.entitlements; sourceTree = "<group>"; };
 		B22D26821F496FA200794BC3 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B22D26841F4D25AE00794BC3 /* FancyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextView.swift; sourceTree = "<group>"; };
 		B26403CE1F380CD100F5AC0C /* socialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26403D11F380CD100F5AC0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B26403D31F380CD100F5AC0C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				B22D267B1F4910C500794BC3 /* RoundedButton.swift */,
 				B22D267D1F49122300794BC3 /* FancyField.swift */,
 				B22D267F1F492FAB00794BC3 /* FancyButton.swift */,
+				B22D26841F4D25AE00794BC3 /* FancyTextView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				B22D267E1F49122300794BC3 /* FancyField.swift in Sources */,
 				B26403D41F380CD100F5AC0C /* SignInVC.swift in Sources */,
 				B22D267C1F4910C500794BC3 /* RoundedButton.swift in Sources */,
+				B22D26851F4D25AE00794BC3 /* FancyTextView.swift in Sources */,
 				B22D26801F492FAB00794BC3 /* FancyButton.swift in Sources */,
 				B22D26831F496FA200794BC3 /* FeedVC.swift in Sources */,
 				B26403D21F380CD100F5AC0C /* AppDelegate.swift in Sources */,
